@@ -78,6 +78,6 @@ def waypoint_clear_client():
             print ("Service call failed: %s" %(e))
             return False
 
-
+#the data dictionary contains the waypoint data
 data = [{'altitude' : 15,'latitude' : 47.3977508,'longitude' : 8.5456074},{'altitude' : 15,'latitude' : 47.3977808,'longitude' : 8.5456174},{'altitude' : 15,'latitude' : 47.3978008,'longitude' : 8.5457074}]
 waypoint_push_client(data)
