@@ -22,7 +22,7 @@ roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
 3. Navigate to the ‘Firmware’ repository of Pixhawk and enter the command to launch a quadcopter in the Gazebo simulator.
 ```
-~/Firmware
+cd Firmware
 make px4_sitl gazebo
 ```
 ![Gazebo](https://dev.px4.io/v1.10/assets/simulation/gazebo.png)
